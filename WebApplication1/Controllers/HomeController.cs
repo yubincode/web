@@ -17,7 +17,8 @@ namespace WebApplication1.Controllers
         }
         public IActionResult Index()
         {
-            return Content(testService.Hello());
+            return Content("1");
+            //return Content(testService.Hello());
             //return View();
         }
 
